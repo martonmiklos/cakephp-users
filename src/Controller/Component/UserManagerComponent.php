@@ -17,7 +17,7 @@ namespace Users\Controller\Component;
 use Cake\Controller\Component;
 use Cake\Controller\ComponentRegistry;
 use Cake\Event\Event;
-
+use Cake\Event\EventManager;
 
 /**
  * UserManager component
