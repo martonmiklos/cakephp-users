@@ -4,7 +4,7 @@
 
 <p style="font-family: Calibri, Arial">
     <?= __d('users', "You've got this e-mail because you lost your password at") ?> <a href="<?= $baseUrl ?>"><?= $baseUrl ?></a>.<br>
-    <?= __d('users', "Via the following url you will be able to set a new password:") ?> <a href="<?= $resetUrl ?>">Reset new Password</a>.
+    <?= __d('users', "Via the following url you will be able to set a new password:") ?> <a href="<?= $resetUrl ?>"><?= __d('users', 'Reset your password') ?></a>.
 </p>
 
 <p style="font-family: Calibri, Arial">
